@@ -13,12 +13,14 @@ namespace Iteration_WorkShop
             btn_Close_DoWhile.Visible = false;
             btn_Close_For.Visible = false;
             btn_Close_ForEach.Visible = false;
-            btn_Close_While.Visible = false;
-            listBox_While.Visible = false;
             listBox_DoWhile.Visible = false;
             listBox_For.Visible = false;
             listBox_ForEach.Visible = false;
+
+            txtBox_While1.Enter += txtBox_While1_Enter;
         }
+
+
         private void Form_Resize(object? sender, EventArgs e)
         {
             float scaleFactor = Math.Max(this.Width / (float)originalFormWidth, this.Height / (float)originalFormHeight);
@@ -35,17 +37,27 @@ namespace Iteration_WorkShop
                 MessageBox.Show("Vänligen ange ett heltal i rutan \"Värde 1\" för While", "Felaktig inmatning");
                 return;
             }
+            txtBox_While1.Text = "Värde 1";
+            txtBox_While1.ForeColor = Color.Gray;
+            txtBox_While2.Text = "Värde 2";
+            txtBox_While2.ForeColor = Color.Gray;
+
             btn_Close_While.Visible = true;
             listBox_While.Visible = true;
         }
 
         private void btn_While2_Click(object sender, EventArgs e)
         {
-            if (String.IsNullOrEmpty(txtBox_While1.Text) || String.IsNullOrEmpty(txtBox_While2.Text))
+            if (String.IsNullOrEmpty(txtBox_While1.Text) || String.IsNullOrEmpty(txtBox_While2.Text) || txtBox_While1.Text == "Värde 1" || txtBox_While2.Text == "Värde 2")
             {
                 MessageBox.Show("Ange ett namn i rutan \"Värde 1\" och ett lösenord för \"Värde 2\" under While", "Felaktig inmatning");
                 return;
             }
+            txtBox_While1.Text = "Värde 1";
+            txtBox_While1.ForeColor = Color.Gray;
+            txtBox_While2.Text = "Värde 2";
+            txtBox_While2.ForeColor = Color.Gray;
+
             btn_Close_While.Visible = true;
             listBox_While.Visible = true;
         }
@@ -112,6 +124,24 @@ namespace Iteration_WorkShop
             btn_Close_ForEach.Visible = false;
             listBox_ForEach.Visible = false;
             listBox_ForEach.Items.Clear();
+        }
+
+        private void txtBox_While1_Enter(object sender, EventArgs e)
+        {
+            if (txtBox_While1.Text == "Värde 1")
+            {
+                txtBox_While1.Text = "";
+                txtBox_While1.ForeColor = Color.Black;
+            }
+        }
+
+        private void txtBox_While2_Enter(object sender, EventArgs e)
+        {
+            if (txtBox_While2.Text == "Värde 2")
+            {
+                txtBox_While2.Text = "";
+                txtBox_While2.ForeColor = Color.Black;
+            }
         }
     }
 }

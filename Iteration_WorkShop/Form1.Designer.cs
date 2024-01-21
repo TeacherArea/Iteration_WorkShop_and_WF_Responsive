@@ -179,27 +179,29 @@
             // 
             txtBox_For1.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             tableLayoutPanel_For.SetColumnSpan(txtBox_For1, 5);
-            txtBox_For1.Font = new Font("Arial", 14F, FontStyle.Italic, GraphicsUnit.Point);
+            txtBox_For1.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
             txtBox_For1.ForeColor = Color.DarkGray;
-            txtBox_For1.Location = new Point(10, 65);
+            txtBox_For1.Location = new Point(10, 66);
             txtBox_For1.Margin = new Padding(10, 3, 10, 3);
             txtBox_For1.Name = "txtBox_For1";
-            txtBox_For1.Size = new Size(237, 29);
+            txtBox_For1.Size = new Size(237, 26);
             txtBox_For1.TabIndex = 6;
             txtBox_For1.Text = "Värde 1";
+            txtBox_For1.Enter += txtBox_While2_Enter;
             // 
             // txtBox_For2
             // 
             txtBox_For2.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             tableLayoutPanel_For.SetColumnSpan(txtBox_For2, 5);
-            txtBox_For2.Font = new Font("Arial", 14F, FontStyle.Italic, GraphicsUnit.Point);
+            txtBox_For2.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
             txtBox_For2.ForeColor = Color.DarkGray;
-            txtBox_For2.Location = new Point(10, 128);
+            txtBox_For2.Location = new Point(10, 129);
             txtBox_For2.Margin = new Padding(10, 3, 10, 3);
             txtBox_For2.Name = "txtBox_For2";
-            txtBox_For2.Size = new Size(237, 29);
+            txtBox_For2.Size = new Size(237, 26);
             txtBox_For2.TabIndex = 7;
             txtBox_For2.Text = "Värde 2";
+            txtBox_For2.Enter += txtBox_While2_Enter;
             // 
             // btn_Close_For
             // 
@@ -302,27 +304,29 @@
             // 
             txtBox_DoWhile1.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             tableLayoutPanel_DoWhile.SetColumnSpan(txtBox_DoWhile1, 5);
-            txtBox_DoWhile1.Font = new Font("Arial", 14F, FontStyle.Italic, GraphicsUnit.Point);
+            txtBox_DoWhile1.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
             txtBox_DoWhile1.ForeColor = Color.DarkGray;
-            txtBox_DoWhile1.Location = new Point(10, 65);
+            txtBox_DoWhile1.Location = new Point(10, 66);
             txtBox_DoWhile1.Margin = new Padding(10, 3, 10, 3);
             txtBox_DoWhile1.Name = "txtBox_DoWhile1";
-            txtBox_DoWhile1.Size = new Size(237, 29);
+            txtBox_DoWhile1.Size = new Size(237, 26);
             txtBox_DoWhile1.TabIndex = 6;
             txtBox_DoWhile1.Text = "Värde 1";
+            txtBox_DoWhile1.Enter += txtBox_While2_Enter;
             // 
             // txtBox_DoWhile2
             // 
             txtBox_DoWhile2.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             tableLayoutPanel_DoWhile.SetColumnSpan(txtBox_DoWhile2, 5);
-            txtBox_DoWhile2.Font = new Font("Arial", 14F, FontStyle.Italic, GraphicsUnit.Point);
+            txtBox_DoWhile2.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
             txtBox_DoWhile2.ForeColor = Color.DarkGray;
-            txtBox_DoWhile2.Location = new Point(10, 128);
+            txtBox_DoWhile2.Location = new Point(10, 129);
             txtBox_DoWhile2.Margin = new Padding(10, 3, 10, 3);
             txtBox_DoWhile2.Name = "txtBox_DoWhile2";
-            txtBox_DoWhile2.Size = new Size(237, 29);
+            txtBox_DoWhile2.Size = new Size(237, 26);
             txtBox_DoWhile2.TabIndex = 7;
             txtBox_DoWhile2.Text = "Värde 2";
+            txtBox_DoWhile2.Enter += txtBox_While2_Enter;
             // 
             // btn_Close_DoWhile
             // 
@@ -415,27 +419,29 @@
             // 
             txtBox_While1.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             tableLayoutPanel_While.SetColumnSpan(txtBox_While1, 5);
-            txtBox_While1.Font = new Font("Arial", 14.25F, FontStyle.Italic, GraphicsUnit.Point);
+            txtBox_While1.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
             txtBox_While1.ForeColor = Color.DarkGray;
-            txtBox_While1.Location = new Point(10, 65);
+            txtBox_While1.Location = new Point(10, 66);
             txtBox_While1.Margin = new Padding(10, 3, 10, 3);
             txtBox_While1.Name = "txtBox_While1";
-            txtBox_While1.Size = new Size(237, 29);
+            txtBox_While1.Size = new Size(237, 26);
             txtBox_While1.TabIndex = 6;
             txtBox_While1.Text = "Värde 1";
+            txtBox_While1.Enter += txtBox_While1_Enter;
             // 
             // txtBox_While2
             // 
             txtBox_While2.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             tableLayoutPanel_While.SetColumnSpan(txtBox_While2, 5);
-            txtBox_While2.Font = new Font("Arial", 14.25F, FontStyle.Italic, GraphicsUnit.Point);
+            txtBox_While2.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
             txtBox_While2.ForeColor = Color.DarkGray;
-            txtBox_While2.Location = new Point(10, 128);
+            txtBox_While2.Location = new Point(10, 129);
             txtBox_While2.Margin = new Padding(10, 3, 10, 3);
             txtBox_While2.Name = "txtBox_While2";
-            txtBox_While2.Size = new Size(237, 29);
+            txtBox_While2.Size = new Size(237, 26);
             txtBox_While2.TabIndex = 7;
             txtBox_While2.Text = "Värde 2";
+            txtBox_While2.Enter += txtBox_While2_Enter;
             // 
             // btn_Close_While
             // 
@@ -550,27 +556,29 @@
             // 
             txtBox_Foreach1.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             tableLayout_ForEach.SetColumnSpan(txtBox_Foreach1, 5);
-            txtBox_Foreach1.Font = new Font("Arial", 14F, FontStyle.Italic, GraphicsUnit.Point);
+            txtBox_Foreach1.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
             txtBox_Foreach1.ForeColor = Color.DarkGray;
-            txtBox_Foreach1.Location = new Point(10, 65);
+            txtBox_Foreach1.Location = new Point(10, 66);
             txtBox_Foreach1.Margin = new Padding(10, 3, 10, 3);
             txtBox_Foreach1.Name = "txtBox_Foreach1";
-            txtBox_Foreach1.Size = new Size(238, 29);
+            txtBox_Foreach1.Size = new Size(238, 26);
             txtBox_Foreach1.TabIndex = 6;
             txtBox_Foreach1.Text = "Värde 1";
+            txtBox_Foreach1.Enter += txtBox_While2_Enter;
             // 
             // txtBox_Foreach2
             // 
             txtBox_Foreach2.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             tableLayout_ForEach.SetColumnSpan(txtBox_Foreach2, 5);
-            txtBox_Foreach2.Font = new Font("Arial", 14F, FontStyle.Italic, GraphicsUnit.Point);
+            txtBox_Foreach2.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
             txtBox_Foreach2.ForeColor = Color.DarkGray;
-            txtBox_Foreach2.Location = new Point(10, 128);
+            txtBox_Foreach2.Location = new Point(10, 129);
             txtBox_Foreach2.Margin = new Padding(10, 3, 10, 3);
             txtBox_Foreach2.Name = "txtBox_Foreach2";
-            txtBox_Foreach2.Size = new Size(238, 29);
+            txtBox_Foreach2.Size = new Size(238, 26);
             txtBox_Foreach2.TabIndex = 7;
             txtBox_Foreach2.Text = "Värde 2";
+            txtBox_Foreach2.Enter += txtBox_While2_Enter;
             // 
             // btn_Close_ForEach
             // 
