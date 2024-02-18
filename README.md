@@ -8,7 +8,7 @@ Loop-och Metodverkstad är ett övningsprojekt skapat för att ge  praktisk erfa
 
 Gränssnittet består av fyra huvudsektioner, en för varje loop-typ. Varje sektion har två textfält för input och två knappar som aktiverar olika funktioner. Notera att användarinput endast valideras i `while`-sektionen; detta måste läggas till för de andra looparna av användaren.
 
-![Gränssnittsbild](img/iteration.png) 
+![Bild](Iteration_WorkShop/img/iteration.jpg) 
 
 ## Uppgifter
 
