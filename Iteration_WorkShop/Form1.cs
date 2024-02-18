@@ -6,7 +6,9 @@ namespace Iteration_WorkShop
         public Form1_Iterations()
         {
             InitializeComponent();
-            originalFontSize = lbl_Heading_Foreach.Font.Size;
+
+            #region hantering av font och vilka controler som visas 
+            originalFontSize = lbl_Heading_Foreach.Font.Size; // alla heading är samma ursprungliga storlek, en räcker som referens
             originalFormWidth = this.ClientSize.Width;
             originalFormHeight = this.ClientSize.Height;
             this.Resize += new EventHandler(Form_Resize);
@@ -16,11 +18,11 @@ namespace Iteration_WorkShop
             listBox_DoWhile.Visible = false;
             listBox_For.Visible = false;
             listBox_ForEach.Visible = false;
-
             txtBox_While1.Enter += txtBox_While1_Enter;
+            #endregion
         }
 
-
+        #region Responsiv hantering av rubrikernas font
         private void Form_Resize(object? sender, EventArgs e)
         {
             float scaleFactor = Math.Max(this.Width / (float)originalFormWidth, this.Height / (float)originalFormHeight);
@@ -29,6 +31,8 @@ namespace Iteration_WorkShop
             lbl_Heading_For.Font = new Font(lbl_Heading_For.Font.FontFamily, originalFontSize * scaleFactor, lbl_Heading_For.Font.Style);
             lbl_Heading_Foreach.Font = new Font(lbl_Heading_Foreach.Font.FontFamily, originalFontSize * scaleFactor, lbl_Heading_Foreach.Font.Style);
         }
+
+        #endregion
 
         private void btn_While1_Click(object sender, EventArgs e)
         {

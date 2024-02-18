@@ -152,14 +152,13 @@
             lbl_Heading_For.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             lbl_Heading_For.AutoSize = true;
             lbl_Heading_For.BackColor = Color.Transparent;
-            lbl_Heading_For.BorderStyle = BorderStyle.FixedSingle;
             tableLayoutPanel_For.SetColumnSpan(lbl_Heading_For, 5);
             lbl_Heading_For.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
             lbl_Heading_For.ForeColor = Color.White;
-            lbl_Heading_For.Location = new Point(10, 14);
+            lbl_Heading_For.Location = new Point(10, 15);
             lbl_Heading_For.Margin = new Padding(10, 0, 10, 0);
             lbl_Heading_For.Name = "lbl_Heading_For";
-            lbl_Heading_For.Size = new Size(237, 20);
+            lbl_Heading_For.Size = new Size(237, 18);
             lbl_Heading_For.TabIndex = 3;
             lbl_Heading_For.Text = "for";
             // 
@@ -277,14 +276,13 @@
             lbl_Heading_DoWhile.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             lbl_Heading_DoWhile.AutoSize = true;
             lbl_Heading_DoWhile.BackColor = Color.Transparent;
-            lbl_Heading_DoWhile.BorderStyle = BorderStyle.FixedSingle;
             tableLayoutPanel_DoWhile.SetColumnSpan(lbl_Heading_DoWhile, 5);
             lbl_Heading_DoWhile.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
             lbl_Heading_DoWhile.ForeColor = Color.White;
-            lbl_Heading_DoWhile.Location = new Point(10, 14);
+            lbl_Heading_DoWhile.Location = new Point(10, 15);
             lbl_Heading_DoWhile.Margin = new Padding(10, 0, 10, 0);
             lbl_Heading_DoWhile.Name = "lbl_Heading_DoWhile";
-            lbl_Heading_DoWhile.Size = new Size(237, 20);
+            lbl_Heading_DoWhile.Size = new Size(237, 18);
             lbl_Heading_DoWhile.TabIndex = 3;
             lbl_Heading_DoWhile.Text = "do while";
             // 
@@ -404,14 +402,13 @@
             lbl_Heading_While.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             lbl_Heading_While.AutoSize = true;
             lbl_Heading_While.BackColor = Color.Transparent;
-            lbl_Heading_While.BorderStyle = BorderStyle.FixedSingle;
             tableLayoutPanel_While.SetColumnSpan(lbl_Heading_While, 5);
             lbl_Heading_While.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
             lbl_Heading_While.ForeColor = Color.White;
-            lbl_Heading_While.Location = new Point(10, 14);
+            lbl_Heading_While.Location = new Point(10, 15);
             lbl_Heading_While.Margin = new Padding(10, 0, 10, 0);
             lbl_Heading_While.Name = "lbl_Heading_While";
-            lbl_Heading_While.Size = new Size(237, 20);
+            lbl_Heading_While.Size = new Size(237, 18);
             lbl_Heading_While.TabIndex = 3;
             lbl_Heading_While.Text = "while";
             // 
@@ -529,14 +526,13 @@
             lbl_Heading_Foreach.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             lbl_Heading_Foreach.AutoSize = true;
             lbl_Heading_Foreach.BackColor = Color.Transparent;
-            lbl_Heading_Foreach.BorderStyle = BorderStyle.FixedSingle;
             tableLayout_ForEach.SetColumnSpan(lbl_Heading_Foreach, 5);
             lbl_Heading_Foreach.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
             lbl_Heading_Foreach.ForeColor = Color.White;
-            lbl_Heading_Foreach.Location = new Point(10, 14);
+            lbl_Heading_Foreach.Location = new Point(10, 15);
             lbl_Heading_Foreach.Margin = new Padding(10, 0, 10, 0);
             lbl_Heading_Foreach.Name = "lbl_Heading_Foreach";
-            lbl_Heading_Foreach.Size = new Size(238, 20);
+            lbl_Heading_Foreach.Size = new Size(238, 18);
             lbl_Heading_Foreach.TabIndex = 3;
             lbl_Heading_Foreach.Text = "foreach";
             // 
