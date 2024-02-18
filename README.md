@@ -42,6 +42,31 @@ Fördjupning dataanalys för specifikt uppgift 8/9: Låt säga att arrayen repre
 ### Fördjupning 2
 Lägg till funktioner, där så lämpar sig, där användaren kan filtrera ut vad det den vill se från en lista med innehåll. Det kan röra sig om att se alla som är inloggade vars namn (uppgift 2) börja på en viss bokstav, att kunna välja vilka bilder (uppgift 7) den vill se baserat på ett visst taggat ord för en viss bild, eller någon annan kul sortering. Använd gärna en drop-down meny (i Windows Forms kallas de för ComboBox).
 
+### Fördjupning 3
+Skapa ett enkelt bildgalleri där användaren kan ange hur många bilder de vill se (minst 1-5 bilder). Använd en for-loop för att ladda och visa det angivna antalet bilder från en fördefinierad lista eller katalog.
+Bilderna bör vara så små (kanske 5x5 cm) och av samma storlek att de inte förstör gränssnittet, alternativt att du väljer att öppna ett till externt forumlär. 
+
+Tips! Du kan använda de smiley-bilder som finns i img-mappen eller egna.Testa och dra in en kallad NumericUppDown från Toolbox, där användaren kan välja antal (och som du kan ställa min och max värden på). En FlowLayoutPanel (dra in en sådan) hjälper till att visa bilder dynamiskt. Själva metoden kan bli något i stil med
+
+```csharp
+private void numericUpDown_ValueChanged(object sender, EventArgs e)
+{
+    flowLayoutPanel1.Controls.Clear(); // Rensa ev. tidigare bilder
+    int numberOfImages = (int)numericUpDown.Value;
+    // din valda loop här
+    {
+        PictureBox pictureBox = new PictureBox
+        {
+            Size = new Size(50, 50),
+            SizeMode = PictureBoxSizeMode.StretchImage,
+            Image = Image.FromFile($"img/smiley{i}.jpg")
+        };
+        flowLayoutPanel1.Controls.Add(pictureBox);
+    }
+}
+
+```
+
 ## Användarinstruktioner
 
 1. Klon repo: `git clone https://github.com/anvandarnamn/loop-och-metodverkstad.git`
