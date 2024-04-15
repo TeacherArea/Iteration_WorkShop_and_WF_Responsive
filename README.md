@@ -29,12 +29,12 @@ Varje loop-sektion har följande uppgifter:
 
 - **Uppgift 6**: Skapa en funktion som analyserar olika data ur tidigare genererad Fibonacci-sekvens. **Förväntat resultat**: Visa högsta och lägsta värdet, medelvärde, median, summan och antal element.
 
-- **Uppgift 7**: Skapa ett enkelt bildgalleri där användaren kan ange hur många bilder de vill se (minst 1-5 bilder). Använd en for-loop för att ladda och visa det angivna antalet bilder från en fördefinierad lista eller katalog.
+- *Fördjupning (fristående uppgift)*: Skapa ett eget gränssnitt för ett enkelt bildgalleri där användaren kan ange hur många bilder de vill se (minst 1-5 bilder). Använd en for-loop för att ladda och visa det angivna antalet bilder från en fördefinierad lista eller katalog.
 
 ### foreach
-- **Uppgift 8**: Användaren ska kunna mata in en textsträng. Använd en foreach loop för att räkna antalet förekomster av ord i strängen, och en annan för att räkna antal förekomster av tecken. **Förväntat resultat**: Användaren ska kunna se hur många ord och hur många tecken den egna inmatade texten innehåller.
+- **Uppgift 7**: Användaren ska kunna mata in en textsträng. Använd en foreach loop för att räkna antalet förekomster av ord i strängen, och en annan för att räkna antal förekomster av tecken. **Förväntat resultat**: Användaren ska kunna se hur många ord och hur många tecken den egna inmatade texten innehåller.
 
-- **Uppgift 9**: Skapa en tvådimensionell array som representerar en rutnätsstruktur, antingen att du matar in värden för hand i arrayen eller hellre att du använder två nästlade for-loopar för att fylla den. Resultatet kan vara något så enkelt som ett spelbräde (5x5 rutnät), en pixelbild, eller en annan matris med data. **Förväntat resultat**: datan visas i ditt formulär.
+- **Uppgift 8**: Skapa en tvådimensionell array som representerar en rutnätsstruktur, antingen att du matar in värden för hand i arrayen eller hellre att du använder två nästlade for-loopar för att fylla den. Resultatet kan vara något så enkelt som ett spelbräde (5x5 rutnät), en pixelbild, eller en annan matris med data. **Förväntat resultat**: datan visas i ditt formulär.
 
 ## Extra utmaningar (frivilligt)
 ### Fördjupning 1
